@@ -35,6 +35,7 @@ ENV/
 serviceAccountKey.json
 firebase_key.json
 firebase_keys.json
+firebase-key.json
 firebase_admin_key.json
 firebase_service_account.json
 
@@ -43,6 +44,8 @@ config.json
 
 # Streamlit secrets
 .streamlit/secrets.toml
+# Local environment variables
+.env
 
 # =========================================================
 # AI / ML Models / Embeddings

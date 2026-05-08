@@ -9,3 +9,8 @@ faiss-cpu
 scikit-learn
 numpy
 bcrypt
+firebase-admin
+nltk
+networkx
+spacy
+python-multipart

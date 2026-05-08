@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 import streamlit as st
+import os
 import pandas as pd
 
 from modules.ai_tutor import answer_question, generate_key_points, generate_summary, tutor_answer
@@ -52,6 +53,19 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+def production_setup():
+    """Ensures directories and NLTK data exist for Streamlit Cloud."""
+    # 1. Create necessary directories
+    for folder in ["uploads", "AI_Tutor", "pdf_library"]:
+        Path(folder).mkdir(parents=True, exist_ok=True)
+    
+    # 2. Setup NLTK
+    try:
+        import nltk
+        nltk.download('punkt', quiet=True)
+        nltk.download('stopwords', quiet=True)
+    except Exception:
+        pass
 
 def inject_css() -> None:
     st.markdown(
@@ -1451,6 +1465,7 @@ def page_leaderboard(student) -> None:
 
 
 def main() -> None:
+    production_setup()
     apply_theme()
     inject_css()
 
