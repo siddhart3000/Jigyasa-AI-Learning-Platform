@@ -1,0 +1,11 @@
+streamlit
+groq
+pdfplumber
+pandas
+python-dotenv
+streamlit-pdf-viewer
+sentence-transformers
+faiss-cpu
+scikit-learn
+numpy
+bcrypt

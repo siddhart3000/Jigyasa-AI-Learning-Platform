@@ -1,0 +1,57 @@
+{
+  "students": {
+    "student@example.com": {
+      "name": "Student",
+      "email": "student@example.com",
+      "xp": 142,
+      "lessons_completed": 0,
+      "quizzes_attempted": 7,
+      "quiz_correct": 0,
+      "quiz_total": 0,
+      "videos_watched": 0,
+      "video_watch_count": 0,
+      "video_watch_time_minutes": 0,
+      "ai_questions_asked": 36,
+      "study_time_minutes": 130,
+      "practice_attempts": 7,
+      "summary_requests": 0,
+      "topic_quiz_performance": {},
+      "favorite_summaries": [],
+      "daily_activity": {
+        "2026-03-17": {
+          "study_minutes": 10,
+          "ai_questions": 7,
+          "quiz_attempts": 4
+        },
+        "2026-03-18": {
+          "study_minutes": 10,
+          "ai_questions": 3
+        },
+        "2026-03-25": {
+          "study_minutes": 10,
+          "ai_questions": 2
+        },
+        "2026-04-09": {
+          "study_minutes": 10,
+          "ai_questions": 2
+        },
+        "2026-04-12": {
+          "study_minutes": 10,
+          "ai_questions": 2
+        },
+        "2026-04-17": {
+          "study_minutes": 30,
+          "ai_questions": 2,
+          "quiz_attempts": 1
+        },
+        "2026-04-26": {
+          "study_minutes": 10
+        },
+        "2026-05-08": {
+          "quiz_attempts": 1
+        }
+      },
+      "watched_video_ids": []
+    }
+  }
+}
