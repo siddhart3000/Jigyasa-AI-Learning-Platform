@@ -2,13 +2,13 @@ from __future__ import annotations
 
 import pandas as pd
 
-from .storage import StudentState
+
 
 
 # =========================================================
 # QUIZ ACCURACY
 # =========================================================
-def quiz_accuracy(student: StudentState) -> float:
+def quiz_accuracy(student) -> float:
     """
     Calculates overall quiz accuracy percentage.
     """
@@ -26,7 +26,7 @@ def quiz_accuracy(student: StudentState) -> float:
 # =========================================================
 # LEARNING SCORE
 # =========================================================
-def learning_score(student: StudentState) -> float:
+def learning_score(student) -> float:
     """
     Overall AI learning intelligence score.
     """
